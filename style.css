@@ -1,0 +1,42 @@
+body {
+    background-color: #293952;
+    font-family: Poppins;
+        
+}
+
+#coluna {
+    flex-direction: column;
+}
+
+#bloco01 {
+    width: 1000px;
+    height: 1000px;
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    margin-left: 300px;
+}
+
+#botao1{
+    border-radius: 50px;
+    background-color: beige;
+    cursor: pointer;   
+    width: 80%;
+    transition: 0.5s;
+}
+
+#botao1:hover {
+    transform: scale(1.1);
+}
+
+#botao2 {
+    border-radius: 50px;
+    background-color: beige;
+    cursor: pointer;
+    width: 80%;
+    transition: 0.5s;
+}
+
+#botao2:hover {
+    transform: scale(1.1);
+}
